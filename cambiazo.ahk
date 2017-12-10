@@ -13,7 +13,7 @@ SendMode Input                              ;; Recomendado para nuevos scripts d
                                             ;; superior y fiabilidad.
 SetWorkingDir %A_ScriptDir%                 ;; Asegura un directorio
 Menu, Tray, Icon, shell32.dll, 92           ;; Cambia el icono a un planeta, ayuda a diferenciarlo.
-#singleinstance force                       ;; Corre una sola instancia del script a la vez para que no te preocupes.
+#SingleInstance force                       ;; Corre una sola instancia del script a la vez para que no te preocupes.
 
 
 F1::   ;;------------------------------------------;; activa el codigo al presionar F1, es para FireFox
